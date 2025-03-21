@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Speech-to-Text & Text-to-Speech Demo
+
+A Next.js application that demonstrates real-time speech-to-text (STT) and text-to-speech (TTS) functionality using the Web Speech API.
+
+## Features
+
+- Real-time speech-to-text conversion
+- Text-to-speech playback
+- Multiple language support
+- Edit and delete messages
+- Clear all messages
+- Modern and responsive UI
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd stt-tts-demo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. **Speech-to-Text**:
+   - Click the microphone button to start recording
+   - Speak into your microphone
+   - Your speech will be converted to text in real-time
+   - Click the microphone button again to stop recording
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Text-to-Speech**:
+   - Click the speaker icon next to any message to hear it read aloud
+   - The text will be read in the selected language
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Language Selection**:
+   - Use the dropdown menu to select your preferred language
+   - The selected language will be used for both STT and TTS
 
-## Deploy on Vercel
+4. **Message Management**:
+   - Click the edit icon to modify a message
+   - Click the trash icon to delete a message
+   - Use the "Clear All" button to remove all messages
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Browser Support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This application uses the Web Speech API, which is supported in most modern browsers:
+- Chrome (recommended)
+- Edge
+- Safari
+- Firefox
+
+## Technologies Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Web Speech API
+- React Icons
+
+## License
+
+MIT
