@@ -18,7 +18,7 @@ This is a voice-interactive AI assistant demo developed as a prototype for the [
 ## 📺 Demo Video
 
 Watch it:  
-🔗 [YouTube Demo Link](https://your-demo-link.com)
+🔗 [YouTube Demo Link](https://youtu.be/Bs_JBf9uYoU)
 
 ---
 
