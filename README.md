@@ -1,73 +1,31 @@
-# Speech-to-Text & Text-to-Speech Demo
+# 🎙️ Voice-Powered AI Assistant using Web Speech API
 
-A Next.js application that demonstrates real-time speech-to-text (STT) and text-to-speech (TTS) functionality using the Web Speech API.
+This is a voice-interactive AI assistant demo developed as a prototype for the [Zendalona GSoC 2025 Project: AI-Powered Agent for Support & Accessibility](https://zendalona.com). The application enables users — particularly those with visual impairments — to interact with an AI chatbot through voice input and receive responses both as text and spoken audio.
 
-## Features
+---
 
-- Real-time speech-to-text conversion
-- Text-to-speech playback
-- Multiple language support
-- Edit and delete messages
-- Clear all messages
-- Modern and responsive UI
+## ✨ Features
 
-## Getting Started
+- 🎤 **Speech-to-Text (STT)** using the Web Speech API
+- 🤖 **LLM-Powered Responses** from LLaMA 3.1 (via Groq API)
+- 🔊 **Text-to-Speech (TTS)** with natural voice playback
+- 🌐 **Language Selection** for voice recognition and output
+- 💬 **Editable Notes & Chat History**
+- ♿ **Accessibility-Oriented Design** for easy use by visually impaired users
 
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd stt-tts-demo
-```
+---
 
-2. Install dependencies:
-```bash
-npm install
-```
+## 📺 Demo Video
 
-3. Run the development server:
-```bash
-npm run dev
-```
+Watch it:  
+🔗 [YouTube Demo Link](https://your-demo-link.com)
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
-## Usage
+## 🛠️ Tech Stack
 
-1. **Speech-to-Text**:
-   - Click the microphone button to start recording
-   - Speak into your microphone
-   - Your speech will be converted to text in real-time
-   - Click the microphone button again to stop recording
+- **Frontend**: React (Next.js)
+- **STT & TTS**: Web Speech API (browser-native)
+- **AI Integration**: Groq LLaMA 3.1 via streaming API
 
-2. **Text-to-Speech**:
-   - Click the speaker icon next to any message to hear it read aloud
-   - The text will be read in the selected language
 
-3. **Language Selection**:
-   - Use the dropdown menu to select your preferred language
-   - The selected language will be used for both STT and TTS
-
-4. **Message Management**:
-   - Click the edit icon to modify a message
-   - Click the trash icon to delete a message
-   - Use the "Clear All" button to remove all messages
-
-## Browser Support
-
-This application uses the Web Speech API, which is supported in most modern browsers:
-- Chrome (recommended)
-- Edge
-- Safari
-- Firefox
-
-## Technologies Used
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Web Speech API
-- React Icons
-
-## License
-
-MIT
