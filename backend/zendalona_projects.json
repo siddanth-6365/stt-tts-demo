@@ -1,0 +1,73 @@
+{
+    "projects": [
+      {
+        "title": "Accessible-Coconut (AC)",
+        "description": "AC is a community-driven GNU/Linux operating system that is fully accessible for individuals with visual impairments. AC is based on Ubuntu MATE. The goal is to create a free and open-source desktop environment that is accessible without relying on vision."
+      },
+      {
+        "title": "Sharada-Braille-Writer (SBW)",
+        "description": "Sharada-Braille-Writer is a text editor for GNU/Linux that supports braille input. In SBW, simultaneous multiple presses of braille combinations produce corresponding letters. This allows users to input text in more than 40 languages using braille knowledge in a Perkins-like manner. For example, pressing ‘F’ and ‘S’ together will produce the letter ‘K.’"
+      },
+      {
+        "title": "Linux-Intelligent-OCR-Solution (Lios)",
+        "description": "Lios is a free and open-source software for converting printed text into digital text using either a scanner or a camera. It can extract text from scanned images, PDFs, image folders, or screenshots. The program is designed with total accessibility for visually impaired users."
+      },
+      {
+        "title": "IBus-Braille",
+        "description": "IBus-Braille allows users to type text using the PC keyboard in graphical desktops using braille patterns, similar to the Perkins method. It supports several braille tables, key customization, user abbreviations, and direct Braille Unicode input. It was developed as part of two GSoC projects and is accepted into the Debian repository."
+      },
+      {
+        "title": "Accessibility extensions for TuxMath",
+        "description": "“Tux of Math” Command is a math drill game featuring Tux, the Linux Penguin. TuxMath has been made accessible for the visually impaired and supports various modes including solo play, network games, friend play, and an asteroid mode."
+      },
+      {
+        "title": "Accessible Chess – XBoard",
+        "description": "XBoard is a graphical chessboard for chess engines under the X Window System. Enhanced through a GSoC 2015 project, XBoard now includes accessibility features such as speech support and arrow-key navigation to work effectively with screen readers."
+      },
+      {
+        "title": "Accessibility extension for TuxType",
+        "description": "Tux Typing is an educational typing program for children featuring Tux, the Linux Penguin. It now includes accessibility enhancements and braille support (six key Perkins Brailler-like inputs) thanks to a GSoC 2014 project under the Tux4Kids organization."
+      },
+      {
+        "title": "Online six key (braille) input",
+        "description": "This web-based tool allows users to input text in a Perkins Brailler-like manner from any location without needing additional software installation."
+      },
+      {
+        "title": "Accessible-Bluff",
+        "description": "Accessible-Bluff is a web-based card game that replicates real-world bluffing games. It is designed so that all actions and information are conveyed audibly, making it accessible for users with visual impairments."
+      },
+      {
+        "title": "Online Braille Translator",
+        "description": "The Online Braille Translator converts text into Braille through a web interface. It offers extensive language support, customizable options, and a feature for direct Braille input. It uses the Liblouis table for accurate translation and is compatible with screen readers."
+      },
+      {
+        "title": "Braille Translator GUI",
+        "description": "An offline tool for Braille conversion, the Braille Translator GUI lets users select Braille grades, customize line lengths, and edit text with precision. It uses the Liblouis table and works on GNU/Linux and other operating systems."
+      },
+      {
+        "title": "Accessible Snakes and Ladders",
+        "description": "Accessible Snakes and Ladders is a board game application that brings the classic game to your computer with full accessibility support, ensuring that all players can enjoy it."
+      },
+      {
+        "title": "Accessible Maths-Tutor",
+        "description": "An engaging math tutoring game that offers a user-friendly interface with math questions, images, and sound effects. Players receive instant feedback and can customize questions, making it an effective educational tool."
+      },
+      {
+        "title": "Kanmani script for defblind",
+        "description": "‘Kanmani’ is a special Braille system for Malayalam, developed by Zendalona. It was created by Sishna Anand and her father to help individuals with visual and hearing challenges, making reading and writing more accessible."
+      },
+      {
+        "title": "World Map Explorer!",
+        "description": "Built on OpenStreetMap, World Map Explorer offers seamless navigation for both sighted and visually impaired users with keyboard controls, search-assisted navigation, and real-time voice-over."
+      },
+      {
+        "title": "Math Mantra",
+        "description": "Math Mantra is an all-in-one educational app that uses sensors such as accelerometers, GPS, and microphones to create immersive learning experiences. It offers real-time feedback with stereo sound and vibrations."
+      },
+      {
+        "title": "Zendesk",
+        "description": "ZenDesk is an accessible upgrade to the Trudesk help desk platform. It retains core ticket management and collaboration features while adding enhancements like optimized screen reader navigation and ARIA landmarks to improve usability for all users."
+      }
+    ]
+  }
+  
