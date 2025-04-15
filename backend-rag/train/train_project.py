@@ -68,35 +68,28 @@ def build_documents(project_data):
     Each document includes a text chunk (created by chunking long strings) and metadata, such as the originating key and project name.
     """
     docs = []
-    # Use the project 'name' for metadata.
     title = project_data.get("name", "untitled")
-    # Recursively extract all text entries.
     extracted_entries = extract_text_recursively(project_data)
     
     for text, meta in extracted_entries:
         # If text is long, chunk it; otherwise, use the text as a single chunk.
         chunks = chunk_text(text) if len(text.split()) > 100 else [text]
         for chunk in chunks:
-            # Add project title to metadata.
             meta_with_title = dict(meta)
             meta_with_title["project"] = title
             docs.append(Document(page_content=chunk, metadata=meta_with_title))
     return docs
 
 def main():
-    # Process a single project file (for multiple projects, this could be wrapped in a loop).
     project_file = os.path.join(PROJECTS_DIR, "accessible_coconut.json")
     project_data = load_project_json(project_file)
     documents = build_documents(project_data)
     print(f"Created {len(documents)} documents from project data.")
 
-    # Initialize the embedding model (ensure required libraries like 'sentence-transformers' are installed).
     embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     
-    # Create the FAISS vector index from the documents.
     vector_index = FAISS.from_documents(documents, embedding_model)
     
-    # Use the project name to create a folder for the index.
     project_name = project_data.get("name", "untitled")
     project_name_slug = sanitize_filename(project_name)
     index_path = os.path.join(INDEXES_DIR, project_name_slug)
