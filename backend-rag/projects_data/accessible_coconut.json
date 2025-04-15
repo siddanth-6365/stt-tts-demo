@@ -1,0 +1,316 @@
+{
+  "name": "Accessible-Coconut (AC)",
+  "description": "Welcome to AC, a GNU/Linux OS derived from Ubuntu-MATE, dedicated to accessibility. With a focus on professionalism, we deliver a free and open-source desktop environment tailored for the visually impaired. Through innovative features and community collaboration, we enable seamless navigation, communication, and creation. Join us in shaping a future where technology knows no barriers. Accessible-Coconut features a screen reader, optical character recognition (OCR), office suite, sound editor, media players, educational games, and more.",
+  "features": [
+    "Screen reader",
+    "Math tutor",
+    "Musical instrument",
+    "Print reading",
+    "Editing suits",
+    "Disk management",
+    "Six key input",
+    "Media conversion",
+    "Keyboard shortcuts",
+    "Typing tutor",
+    "Magnification",
+    "Console (TTY) screenreader",
+    "Chess game",
+    "Ebook speaker",
+    "Office-Suit",
+    "Daisy-player",
+    "Connect Smartphone",
+    "Basic software",
+    "Linux Kernel",
+    "Stability and Reliability",
+    "No Virus-Antivirus games",
+    "Driver support",
+    "User controls the system"
+  ],
+
+  "download link": "https://sourceforge.net/projects/accessible-coconut/files/latest/download",
+  "video tutorial": "https://www.youtube.com/@zendalona",
+  "User guide": {
+    "Basics": {
+      "Applications_Menu": {
+        "Description": "Access installed applications with Alt+F1.",
+        "Navigation": {
+          "Keys": {
+            "Open_Menu": "Alt+F1",
+            "Navigate": "Up/Down Arrows",
+            "Open_Submenu": "Right Arrow",
+            "Quick_Access": "First letter of menu item",
+            "Exit_Menu": "Escape"
+          },
+          "Categories": [
+            "Universal Access",
+            "System Tools",
+            "Sound and Video",
+            "Office",
+            "Internet",
+            "Graphics",
+            "Games",
+            "Education"
+          ]
+        }
+      },
+      "Search_Application": {
+        "Description": "Use Super key to search and open applications.",
+        "Steps": [
+          "Press the Super key.",
+          "Type first few letters of app name.",
+          "Use Down Arrow to select.",
+          "Press Enter to open."
+        ]
+      },
+      "Close_Application": {
+        "Keys": "Alt+F4"
+      },
+      "Places_Menu": {
+        "Description": "Access system locations via Places Menu.",
+        "Keys": {
+          "Open_Menu": "Alt+F1, then Right Arrow",
+          "Navigation": "Up/Down Arrows",
+          "New_Folder": "Ctrl+Shift+N",
+          "Copy": "Ctrl+C",
+          "Paste": "Ctrl+V",
+          "Go_Home": "Alt+Home",
+          "Go_Desktop": "Alt+Ctrl+D",
+          "Go_Back": "Backspace"
+        },
+        "Locations": [
+          "Home",
+          "Desktop",
+          "Documents",
+          "Music",
+          "Pictures",
+          "Videos",
+          "Downloads",
+          "Computer",
+          "Partitions",
+          "Recent Documents"
+        ]
+      },
+      "Shutdown_Restart_Logout": {
+        "Shutdown": "Alt+F1, Up Arrow, Enter twice",
+        "Restart": {
+          "Normal": "Select Restart in shutdown window",
+          "Force": ["Alt+Ctrl+F1", "Alt+Ctrl+Delete"]
+        },
+        "Logout": "Alt+Ctrl+Backspace"
+      },
+      "Orca_Screen_Reader": {
+        "Toggle": "Alt+Super+S",
+        "Restart": "Alt+Super+O",
+        "Silence": "Insert+S",
+        "Continuous_Reading": "Numpad +",
+        "Learn_Mode": {
+          "Start": "Insert+H",
+          "Exit": "Escape"
+        },
+        "Preferences": {
+          "Open": "Insert+Space",
+          "Navigation": "Tab within page, Left/Right to switch pages",
+          "Change_Language": {
+            "Page": "Voice",
+            "Person": "Down Arrow to select",
+            "Apply": "Alt+A",
+            "Confirm": "Alt+O"
+          },
+          "Adjustments": ["Pitch", "Rate", "Volume"]
+        }
+      }
+    },
+    "System_Settings": {
+      "System_Tools_Menu": [
+        "Administration",
+        "Preferences",
+        "System Settings",
+        "System Monitor",
+        "CPU-X"
+      ],
+      "CPU_X": {
+        "Description": "View hardware configuration.",
+        "Pages": ["CPU", "Motherboard", "System", "Graphics", "Caches"],
+        "Navigation": {
+          "Navigate_Pages": "Arrow Keys",
+          "Move_Through_Pages": "Tab"
+        }
+      },
+      "Video_Tutorials": "https://www.youtube.com/@zendalona/videos"
+    },
+    "Keyboard_Shortcuts": {
+      "General": {
+        "Home": "Super+Home",
+        "Volume_Up": "Super+Alt+Up",
+        "Volume_Down": "Super+Alt+Down",
+        "Mute": "Super+Alt+7",
+        "Toggle_Orca": "Super+Alt+S",
+        "Restart_Orca": "Super+Alt+O",
+        "Magnifier": "Super+Alt+M",
+        "Battery_Status": "Super+Alt+B",
+        "Restart_Wifi": "Super+Alt+W",
+        "Brightness": "Super+Alt+J",
+        "Change_Layout": "Super+Space",
+        "Eject": "Super+Ctrl+Right",
+        "Try_Close": "Super+Ctrl+Left",
+        "Screen_Off": "Super+Alt+PageDown",
+        "Screen_On": "Super+Alt+PageUp",
+        "Touchpad_Off": "Super+Alt+End",
+        "Touchpad_On": "Super+Alt+Home",
+        "Shutdown_Or_Restart": "Alt+Ctrl+Delete",
+        "Force_Restart": ["Alt+Ctrl+F1", "Alt+Ctrl+Delete"],
+        "Switch_Panels": "Super+Tab"
+      },
+      "Lios": {
+        "Launch_Lios": "Alt+Super+L",
+        "Screenshot_OCR": "Alt+Super+D"
+      },
+      "Apps": {
+        "Firefox": "Alt+Super+F",
+        "IBus_Braille_On": "Super+I",
+        "IBus_Braille_Off": "Super+Alt+I"
+      }
+    },
+    "Installed_Applications": [
+      "Artha",
+      "Audacious",
+      "Audacity",
+      "Avidmux",
+      "Blueman",
+      "Brasero",
+      "Chromium",
+      "CPU-X",
+      "Curlew",
+      "Daisy-Player",
+      "Disks",
+      "Document Viewer",
+      "Document Scanner",
+      "eBook-Speaker",
+      "Firefox",
+      "Gimp",
+      "Gparted",
+      "Grub-Customizer",
+      "IBus-Braille",
+      "Instruments",
+      "KDEConnect",
+      "Libreoffice",
+      "Lios",
+      "LMMS",
+      "Maths-Tutor",
+      "Onboard",
+      "Orca",
+      "Periodic-Table",
+      "Pidgin",
+      "Pluma",
+      "Preload",
+      "Sharada-Braille-Writer",
+      "Snakes and ladders",
+      "SMPlayer",
+      "VLC",
+      "Startup Disk Creator",
+      "Transmission",
+      "Tuxmath",
+      "Tuxtype",
+      "VCD-Imager",
+      "XBoard"
+    ],
+    "OCR_Language": "Use Tesseract-Language-Data-Installer from Graphics Menu"
+  },
+  "Installation Guide": {
+    "Overview": {
+      "Note": "Check partition info and ensure 15GB free space."
+    },
+    "Activities": {
+      "1_Download": {
+        "Latest": "https://sourceforge.net/projects/accessible-coconut/files/latest/download",
+        "Specific": "https://sourceforge.net/projects/accessible-coconut/files/"
+      },
+      "2_Bootable_USB": {
+        "Requirements": ["8GB USB Drive", "ISO Image", "Bootable USB Software"],
+        "Software": {
+          "balena_Etcher": "https://etcher.balena.io/#download-etcher",
+          "Startup_Disk_Creator": "sudo apt-get install usb-creator-gtk",
+          "USB_Image_Writer": "Available in Linux Mint and Accessible-Coconut",
+          "Rufus": "https://rufus.ie/en/",
+          "UNetbootin": "https://unetbootin.github.io"
+        },
+        "Steps": [
+          "Launch software",
+          "Insert USB",
+          "Select ISO",
+          "Start",
+          "Enter system password",
+          "Wait for completion"
+        ]
+      },
+      "3_Live_Mode": {
+        "Modes": ["UEFI", "Legacy"],
+        "Instructions": "Change BIOS settings to boot from USB."
+      },
+      "4_Installation": {
+        "Steps": [
+          "Launch installer",
+          "Language selection",
+          "Keyboard layout",
+          "Installation type",
+          "Partitioning",
+          "Install now",
+          "Timezone",
+          "User info"
+        ],
+        "Installation_Types": {
+          "Alongside_OS": "Use free space or shrink partition",
+          "Erase_Entire_Disk": "Deletes all data",
+          "Erase_Ubuntu": "Deletes only Ubuntu",
+          "Something_Else": "Manual partitioning with table"
+        },
+        "UEFI": {
+          "Create_EFI": "100MB EFI System Partition"
+        }
+      },
+      "5_Restart": {
+        "Note": "Remove USB and restart"
+      }
+    },
+    "UEFI_Notes": {
+      "UEFI_Info": "Unified Extensible Firmware Interface",
+      "Access_BIOS_Instructions": [
+        "Restart with Shift",
+        "Troubleshoot > Advanced > UEFI Settings > Restart"
+      ],
+      "Determine_Mode": [
+        "No BIOS hints = UEFI",
+        "Check /sys/firmware/efi folder"
+      ],
+      "Fixparts": "Use from System Tools if no partitions listed"
+    },
+    "links": [
+      "https://zendalona.com/project/accessible-coconut-user-guide/",
+      "https://zendalona.com/accessible-coconut-installation-guide/"
+    ]
+  },
+  "FAQ": [
+    {
+      "What is Coco-Patcher ?": "It’s a small software through which one can run scripts provided by Accessible-Coconut development team. Many fixes can be provided through this channel so that users don’t have to jump to new release of Coconut. Also optional software or drivers can be installed using the same."
+    },
+    {
+      "Why Coconut uses Mate as default desktop environment?": "Mate has the following qualities, in comparison with Gnome-3, Unity, or Gnome-Flashback: 1) Lightweight – it will consume less power, CPU, RAM, GPU, etc., and will run in any low configuration systems. 2) Responds very quickly and it is one of the speedy desktop environments like XFCE. 3) Easy to use – provides both application menu and menu that support search (Try pressing Super key (Window key), type application name, and launch). 4) Mate only tries to keep traditional desktop experience and it uses the latest software libraries like GTK-3 graphical user interface toolkit. 5) It is under active development. Finally, it is very accessible with screen reader in an inclusive way. It is not a desktop environment for visually impaired alone. It is a desktop environment developed by a huge community who are not fascinated by the looks and feel of Gnome-3 and also frustrated by the lack of simplicity of Gnome-3."
+    },
+    {
+      "Where can I get a detailed Orca documentation?": "https://help.gnome.org/users/orca/stable/"
+    },
+    {
+      "How do I check the ip address of the connected network": "Hold Super(Windows) key and press Tab key again and again to focus ‘Top panel’, press left arrow to navigate to Network, press down arrow and open ‘Connection information’."
+    },
+    {
+      "How can I mount Google Drive in Coconut ?": "Step 1: install gnome-online-accounts by running the following command in terminal. sudo apt install gnome-control-center gnome-online-accounts. Step 2: Adding google account. Open gnome-control-center by running the command ‘gnome-control-center’. Now go to ‘Online Accounts’, select ‘Google’ and add your Google account. While adding, you may feel some accessibility issues; you can press Tab and Shift+Tab to check where you are. But it’s only for a few steps: email address, password, and an agree button. Step 3: Exploring your Google drive. Go to Applications -> Places and select the entry named your_email_address@gmail.com"
+    },
+    {
+      "Why is the version named 'Accessible Coconut 22.04?": "Accessible Coconut 22.04 is derived from Ubuntu Mate 22.04 GNU/Linux."
+    }
+  ],
+  "Connect with AC community": {
+    "description": "If you have any queries, bug to report, or suggestions regarding Accessible-Coconut, there are plenty of experts including developers in our group. You will get answers to your queries instantly or within 24 hours. Also we will consider your valuable suggestions and bug reports. Feel free to discuss anything.",
+    "mailing list": "https://groups.google.com/g/accessible-coconut"
+  }
+}
